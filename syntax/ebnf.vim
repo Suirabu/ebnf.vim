@@ -15,15 +15,15 @@ syn region ebnfTerminal start="'" end="'"
 
 syn region ebnfSpecial start="?" end="?"
 
-syn match ebnfOperator "*"
+syn match ebnfOperator "\*"
 syn match ebnfOperator "-"
 syn match ebnfOperator ","
 syn match ebnfOperator "|"
 syn match ebnfOperator "="
 syn match ebnfOperator ";"
-syn match ebnfOperator "."
+syn match ebnfOperator "\."
 
-syn match ebnfIdentifier "[a-z|A-Z]\w*"
+syn match ebnfIdentifier "[a-zA-Z]\w*"
 
 hi def link ebnfTodo Todo
 hi def link ebnfComment Comment
