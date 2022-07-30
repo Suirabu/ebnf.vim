@@ -12,3 +12,7 @@ This plugin provides basic syntax highlighting support for EBNF in Vim.
 1. Add `Plug 'Suirabu/ebnf.vim'` to your `.vimrc` or `init.vim`
 2. Source your Vim config file by running `:so %`
 3. Run `:PlugInstall`
+
+## License
+
+This project is licensed under the permissive [MIT license](LICENSE).
